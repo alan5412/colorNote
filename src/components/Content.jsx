@@ -32,7 +32,7 @@ const Content = () => {
 
   const generatePDF = () => {
     const doc = new jsPDF();
-    const logoUrl = "../src/assets/logo.jpeg"; // Reemplázalo con la URL de tu logotipo
+    const logoUrl = "./assets/logo.jpeg"; // Reemplázalo con la URL de tu logotipo
 
     // Agregar logotipo y título
     doc.addImage(logoUrl, "PNG", 20, 10, 60, 30); // Logotipo
