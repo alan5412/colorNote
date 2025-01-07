@@ -1,0 +1,29 @@
+import {Flex, Image, Box, Text, Heading, Separator,} from "@chakra-ui/react";
+import { NumberInputField, NumberInputRoot } from "./ui/number-input";
+
+const Header = ()=>{
+    return(
+        <Box>
+            <Flex wrap="wrap" padding={'1rem'} bg={'gray.800'} alignItems={'center'} justifyContent={'space-evenly'} >
+                <Box>
+                    <Image src="../src/assets/logo.jpeg" maxWidth={'150px'} borderRadius={'0%'} ></Image>
+                </Box>
+
+                <Box textAlign={'center'}>
+                    <Heading size={'2xl'}>Hoja de Servicio</Heading>
+                    <Text fontSize='xl' >JARM ER</Text>
+                </Box>
+
+                {/*<Box justifyItems={'center'} >
+                    <Heading marginBottom={'.5rem'} size={'2xl'}>No. de Orden</Heading>
+                    <NumberInputRoot  variant='filled' size='lg'  min={0} max={100000} maxWidth='100px'>
+                        <NumberInputField ></NumberInputField>
+                    </NumberInputRoot>
+                </Box>*/}
+                
+            </Flex>
+        </Box>
+    )
+}
+
+export default Header
