@@ -117,6 +117,7 @@ const Content = () => {
           <Input
             name="placas"
             placeholder="Placas del carro"
+            bg={"gray.900"}
             variant="subtle"
             value={formData.placas}
             onChange={handleInputChange}
@@ -126,6 +127,7 @@ const Content = () => {
           <Input
             name="marca"
             placeholder="Marca del auto"
+            bg={"gray.900"}
             variant="subtle"
             value={formData.marca}
             onChange={handleInputChange}
@@ -135,6 +137,7 @@ const Content = () => {
           <Input
             name="modelo"
             placeholder="Modelo del auto"
+            bg={"gray.900"}
             variant="subtle"
             value={formData.modelo}
             onChange={handleInputChange}
@@ -144,6 +147,7 @@ const Content = () => {
           <Textarea
             name="trabajo"
             autoresize
+            bg={"gray.900"}
             variant="subtle"
             placeholder="Descripción del trabajo a realizar"
             value={formData.trabajo}
@@ -154,6 +158,7 @@ const Content = () => {
           <Input
             name="costoTotal"
             placeholder="$Mxn"
+            bg={"gray.900"}
             type="number"
             variant="subtle"
             value={formData.costoTotal}
@@ -162,6 +167,7 @@ const Content = () => {
         </Field>
         <Field label="A cuenta">
           <Input
+          bg={"gray.900"}
             name="aCuenta"
             placeholder="$Mxn"
             type="number"
@@ -178,6 +184,7 @@ const Content = () => {
                 name="diaA"
                 placeholder="Dia"
                 type="number"
+                bg={"gray.900"}
                 variant="subtle"
                 value={formData.diaA}
                 onChange={handleInputChange}
@@ -190,6 +197,7 @@ const Content = () => {
                 name="mesA"
                 placeholder="Mes"
                 type="number"
+                bg={"gray.900"}
                 variant="subtle"
                 value={formData.mesA}
                 onChange={handleInputChange}
@@ -199,6 +207,7 @@ const Content = () => {
             </Field>
             <Field>
               <Input
+              bg={"gray.900"}
                 name="añoA"
                 placeholder="Año"
                 type="number"
@@ -215,6 +224,7 @@ const Content = () => {
         <Stack direction={'row'}>
             <Field>
               <Input
+              bg={"gray.900"}
                 name="diaB"
                 placeholder="Dia"
                 type="number"
@@ -228,6 +238,7 @@ const Content = () => {
             <Field>
               <Input
                 name="mesB"
+                bg={"gray.900"}
                 placeholder="Mes"
                 type="number"
                 variant="subtle"
@@ -240,6 +251,7 @@ const Content = () => {
             <Field>
               <Input
                 name="añoB"
+                bg={"gray.900"}
                 placeholder="Año"
                 type="number"
                 variant="subtle"

@@ -3,7 +3,7 @@ import { NumberInputField, NumberInputRoot } from "./ui/number-input";
 
 const Header = ()=>{
     return(
-        <Box>
+        <Box color={'#fff'}>
             <Flex wrap="wrap" padding={'1rem'} bg={'gray.800'} alignItems={'center'} justifyContent={'space-evenly'} >
                 <Box>
                     <Image src="./assets/logo.jpeg" maxWidth={'150px'} borderRadius={'0%'} ></Image>
@@ -11,7 +11,7 @@ const Header = ()=>{
 
                 <Box textAlign={'center'}>
                     <Heading size={'2xl'}>Hoja de Servicio</Heading>
-                    <Text fontSize='xl' >JARM ER</Text>
+                    <Text  fontSize='xl' >JARM ER</Text>
                 </Box>
 
                 {/*<Box justifyItems={'center'} >
