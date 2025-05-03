@@ -6,7 +6,7 @@ const Header = ()=>{
         <Box color={'#fff'}>
             <Flex wrap="wrap" padding={'1rem'} bg={'gray.800'} alignItems={'center'} justifyContent={'space-evenly'} >
                 <Box>
-                    <Image src="./assets/logo.jpeg" maxWidth={'150px'} borderRadius={'0%'} ></Image>
+                    <Image src="./assets/logo2.jpg" maxWidth={'150px'} borderRadius={'0%'} ></Image>
                 </Box>
 
                 <Box textAlign={'center'}>
