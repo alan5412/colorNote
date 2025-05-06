@@ -74,7 +74,7 @@ const Content = () => {
     doc.text(`${formData.diaA}/${formData.mesA}/${formData.añoA}` || "-", 80, 110, { maxWidth: 100 });
     
     doc.setFont("Helvetica", "bold");
-    doc.text("Fecha de salida:", 20, 120);
+    doc.text("Fecha de entrega:", 20, 120);
     doc.setFont("Helvetica", "normal");
     doc.text(`${formData.diaB}/${formData.mesB}/${formData.añoB}` || "-", 80, 120, { maxWidth: 100 });
     // Costos
@@ -220,7 +220,7 @@ const Content = () => {
             </Field>
           </Stack>
         </Field>
-        <Field label="Fecha de salida">
+        <Field label="Fecha de entrega">
         <Stack direction={'row'}>
             <Field>
               <Input

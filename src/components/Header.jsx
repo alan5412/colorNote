@@ -11,7 +11,7 @@ const Header = ()=>{
 
                 <Box textAlign={'center'}>
                     <Heading size={'2xl'}>Hoja de Servicio</Heading>
-                    <Text  fontSize='xl' >JARM ER</Text>
+                    <Text  fontSize='xl' >AJ CAMARENA</Text>
                 </Box>
 
                 {/*<Box justifyItems={'center'} >
